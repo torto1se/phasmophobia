@@ -1,0 +1,41 @@
+ body{
+    background-image: url(https://cdn.wallpapersafari.com/16/59/lNAD4K.jpg);
+    background-attachment:scroll;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:100% 100%;
+}
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    border-radius: 20px; 
+    font-size: 13px; 
+    outline: none
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    background-color: #252925; 
+    color: rgb(255, 255, 255);
+    border: none; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #585958;
+}
+
+
+.reviews{
+    border-radius: 5px;
+    border:2px solid; 
+    border-color:white;
+}
+
+h1{
+    color: #d7dad8;
+}
